@@ -1,5 +1,10 @@
+"""
+CMPS 6100  Lab 7
+Author:
+"""
+
 class Node:
-    """ done. """
+    """ Node class done """
     def __init__(self, element):
         """
         Construct a Node
@@ -29,11 +34,11 @@ class LinkedList:
         self.TAIL = None
 
     def is_empty(self):
-        """ done. """
+        """ done """
         return self.size == 0
 
     def __eq__(self, other):
-        """ done. """
+        """ done """
         if(self.size != other.size):
             return False
         self_node = self.HEAD
@@ -46,7 +51,7 @@ class LinkedList:
         return True
 
     def __str__(self):
-        """ done. """
+        """ done """
         node = self.HEAD
         list_str = ""
         if self.is_empty():
@@ -62,7 +67,7 @@ class LinkedList:
         return list_str
 
     def append(self, element):
-        """ done. """
+        """ done """
         node = Node(element)
         if self.is_empty():
             self.HEAD = node
@@ -80,7 +85,7 @@ class LinkedList:
         pass
 
     def insert(self, element, index):
-        """ done. """
+        """ done """
         # Handle the special cases of 
         # inserting at index 0
         if(index == 0):
@@ -113,7 +118,7 @@ class LinkedList:
         self.size += 1
 
     def iterate_to_position(self, index):
-        """ done. """
+        """ done """
         # iterate to the node at the given index.
         # if we want a reference to the node at
         # index 2, we start at the HEAD and move
@@ -127,7 +132,7 @@ class LinkedList:
         return node
 
     def contains(self, key):
-        """ done. """
+        """ done """
         # guard against an empty list
         if self.is_empty():
             return False
@@ -150,7 +155,7 @@ class LinkedList:
         pass
 
     def remove_first(self):
-        """ done. """
+        """ done """
         if self.size == 0:
             return # empty list, do nothing
         if self.size == 1:

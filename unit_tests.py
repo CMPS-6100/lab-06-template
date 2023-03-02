@@ -120,7 +120,7 @@ def test_traverse_preorder_2():
     bst.traverse_preorder(actual)
     assert actual == [15, 5, 7, 17, 16, 19]
 
-def test_traverse_inorder():
+def test_traverse_inorder_1():
     # Run inorder traverse on
     #       11
     #     /    \
@@ -134,7 +134,7 @@ def test_traverse_inorder():
     bst.traverse_inorder(actual)
     assert actual == [3, 5, 7, 11, 13, 17, 19]
 
-def test_traverse_inorder_random():
+def test_traverse_inorder_2():
     # Run inorder traverse of a randomly
     # generated tree containing elements
     # 0-99

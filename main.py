@@ -8,7 +8,7 @@ from bst import BST
 
 def breadth_first_search(graph, source):
     visited = set()
-    frontier = Queue() # use ops `append` and `popleft`
+    frontier = Queue() # use ops `push` and `poll`
     frontier.push(source)
     while len(frontier) > 0:
         v = frontier.poll()

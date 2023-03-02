@@ -1,6 +1,6 @@
 # CMPS 6100  Lab 07
 
-In this lab, you will complete the implementation of data structures that we have discussed and put them to use.
+In this lab, you will continue to implement and use fundamental data structures.
 
 To complete this lab, follow the instructions in [lab-07.md](lab-07.md) ([PDF version](lab-07.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
 

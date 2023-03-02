@@ -1,6 +1,7 @@
 # CMPS 6100  Lab 07
 
-In this lab, you implement and use graph algorithms.
+In this lab, you continue to implement and use fundamental data structures,
+focussing on Trees and Graphs.
 
 Some prompts will require you to edit `main.py` and others will require answers will go in `answers.md`.
 
@@ -12,7 +13,7 @@ Binary Search Tree code is given to you in `bst.py`.
 
 1. Implement `traverse_preorder` which takes in a list and adds each element of the tree to the list in the order that they are visited. Ensure that `test_traverse_preorder_1` and `test_traverse_preorder_2` pass.
 
-2. Implement `traverse_inorder` which takes in a list and adds each element of the tree to the list in the order that they are visited. Ensure that `test_traverse_inorder` and `test_traverse_inorder_random` pass.
+2. Implement `traverse_inorder` which takes in a list and adds each element of the tree to the list in the order that they are visited. Ensure that `test_traverse_inorder_1` and `test_traverse_inorder_2` pass.
 
 3. Implement `traverse_postorder` which takes in a list and adds each element of the tree to the list in the order that they are visited. Ensure that `test_traverse_postorder_1` and `test_traverse_postorder_2` pass.
 

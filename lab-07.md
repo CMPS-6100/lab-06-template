@@ -10,11 +10,11 @@ Refer back to the [README.md](README.md) for instruction on git, how to test you
 
 Binary Search Tree code is given to you in `bst.py`. 
 
-1. Implement `traverse_preorder` which takes in a list and adds each element of the tree to the list in the order that they are visited. Ensure that `test_traverse_preorder_1` and `test_traverse_preorder_2` passes.
+1. Implement `traverse_preorder` which takes in a list and adds each element of the tree to the list in the order that they are visited. Ensure that `test_traverse_preorder_1` and `test_traverse_preorder_2` pass.
 
-2. Implement `traverse_inorder` which takes in a list and adds each element of the tree to the list in the order that they are visited. Ensure that `test_traverse_inorder` and `test_traverse_inorder_random` passes.
+2. Implement `traverse_inorder` which takes in a list and adds each element of the tree to the list in the order that they are visited. Ensure that `test_traverse_inorder` and `test_traverse_inorder_random` pass.
 
-3. Implement `traverse_postorder` which takes in a list and adds each element of the tree to the list in the order that they are visited. Ensure that `test_traverse_postorder_1` and `test_traverse_postorder_2` passes.
+3. Implement `traverse_postorder` which takes in a list and adds each element of the tree to the list in the order that they are visited. Ensure that `test_traverse_postorder_1` and `test_traverse_postorder_2` pass.
 
 ### Unit Tests
 
@@ -42,7 +42,11 @@ Since you are again using your `LinkedList`, the tests for it have been provided
     
     Implement `bfs_distances` which takes in a `graph` and a `source` vertex and returns a dictionary whose keys are vertices and values are the distance of that vertex from the source vertex. The source vertex $s$ is distance $0$ from itself.
 
-    Ensure that tests `test_bfs_distances_simple`, `test_bfs_distances_triangle`, and `test_bfs_distances_full` pass (2 pts ea.).
+    Ensure that the tests pass (2 pts ea.): 
+    
+    - `test_bfs_distances_simple`
+    - `test_bfs_distances_triangle`
+    - `test_bfs_distances_full`
 
 6. Suppose that you are running Depth First Search (DFS) on a tree. Which of the tree traversals would visit the elements of the tree in a valid order for DFS, that is, in the same order that DFS could? (1 pt)
 
@@ -54,6 +58,10 @@ Since you are again using your `LinkedList`, the tests for it have been provided
 
     Implement `connected_components` which takes in a graph and returns a list of sets where each set contains the vertices in one of the connected components of the graph.
 
-    Ensure that `test_connected_components_one`, `test_connected_components_two`, and `test_connected_components_three` passes (6 pts).
+    Ensure that the tests pass (2 pts ea.): 
+    
+    - `test_connected_components_one`
+    - `test_connected_components_two`
+    - `test_connected_components_three`
 
 8. Implement `num_connected_components` which takes in a graph and returns the number of connected components in that graph. Ensure that `test_num_connected_components` passes (2 pts).

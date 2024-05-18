@@ -1,4 +1,4 @@
-# CMPS 6100  Lab 07
+# CMPS 6100  Lab 06
 
 In this lab, you continue to implement and use fundamental data structures,
 focussing on Trees and Graphs.

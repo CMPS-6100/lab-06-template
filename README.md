@@ -1,8 +1,8 @@
-# CMPS 6100  Lab 07
+# CMPS 6100  Lab 06
 
 In this lab, you will continue to implement and use fundamental data structures.
 
-To complete this lab, follow the instructions in [lab-07.md](lab-07.md) ([PDF version](lab-07.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
+To complete this lab, follow the instructions in [lab-06.md](lab-06.md) ([PDF version](lab-06.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
 
 ## Turning in your work
 - At the top of `main.py` and in the `answers.md` file, **include your name**.

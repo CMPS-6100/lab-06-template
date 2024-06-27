@@ -25,7 +25,7 @@ Unit Tests are provided for the entire BST class, not just the part you are impl
 
 ## Queue (4 pts)
 
-In the next session, you will implement a version of breadth first search. As you may recall BFS uses a Queue to determine the order in which to traverse the Graph. In our notes, we used python's built in `deque`. In this lab, you will implement your own Queue.
+In the next section, you will implement a version of breadth first search. As you may recall BFS uses a Queue to determine the order in which to traverse the Graph. In our notes, we used python's built in `deque`. In this lab, you will implement your own Queue.
 
 You will again use your `LinkedList` as the foundation of your `Queue`. Copy your linked list implementations from Lab-06 over into lab-07's `linked_list.py`.
 
